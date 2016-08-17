@@ -1,0 +1,29 @@
+#!/usr/bin/perl
+
+print "\UProcedury\E\n";
+
+&baner;
+
+$ja = 10;
+$ona = 11;
+
+# print &dodawanie . "\n";
+
+sub dodawanie {
+	$ja + $ona;
+}
+
+sub first {
+	$n += 1;
+	print "Procedurę wywołano $n raz\n";
+}
+
+sub baner {
+	print "\n";
+	print "*" x 100 . "\n";
+	print "*" x 39 . " " x 22 . "*" x 39 . "\n";
+	print "*" x 38 . "   Witaj stary capie!   " . "*" x 38 . "\n";
+	print "*" x 39 . " " x 22 . "*" x 39 . "\n";
+	print "*" x 100 . "\n";
+	print "\n";
+}

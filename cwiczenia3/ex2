@@ -1,0 +1,26 @@
+#!/usr/bin/perl 
+
+print "\URozdział 3 ćwiczenie 2\E\n";
+
+# @people = qw{ Adam Karol Jurek Ania Kasia Piotr Zosia };
+$people[1] = "Adam";
+$people[2] = "Karol";
+$people[3] = "Jurek";
+$people[4] = "Ania";
+$people[5] = "Kasia";
+$people[6] = "Piotr";
+$people[6] = "Zosia";
+
+
+# print @people[0];
+
+
+chomp(@params = <STDIN>);
+
+
+foreach (@params) {
+	print $people[$_] . " ";
+}
+print "\n";
+# print @people;
+

@@ -1,0 +1,7 @@
+#!/usr/bin/perl
+
+print "test\n";
+
+$jeden = "1test";
+
+print $jeden + 1 . "\n";

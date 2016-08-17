@@ -1,0 +1,19 @@
+#!/usr/bin/perl
+
+print "\UWczytywanie z klawiatury\E\n";
+
+print "Ile masz lat?\n";
+chomp($lata = <STDIN>);
+
+if ($lata > 30) {
+	print "*" x 100 . "\n";
+	print "*" x 39 . " Witaj stary capie! " . "*" x 39 . "\n";
+	print "*" x 100 . "\n";
+} else {
+	print "Siemasz leszczu!\n"
+}
+
+
+
+
+# print $lata;

@@ -1,0 +1,21 @@
+#!/usr/bin/perl
+
+print "\UWczytywanie\E\n";
+
+
+print "Podaj dane wiersz po wierszu. (Zakończ ctrl + d)\n";
+# Wczytywanie
+chomp(@lines = <STDIN>);
+
+# sortowanie
+@lines = reverse sort @lines;
+
+# Wyświetlanie
+print "\nWypisz: \n";
+
+foreach $item (@lines) {
+	print "\t" . $item ;
+}
+print "\n";
+
+# print scalar @lines;

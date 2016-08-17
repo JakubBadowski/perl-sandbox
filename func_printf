@@ -1,0 +1,18 @@
+#!/usr/bin/perl
+
+use warnings;
+
+$name = "Badyl";
+$year = 31;
+
+
+
+
+
+
+
+
+sub witaj {
+	printf "Witaj %s ty stary, %d letni capie!\n", $name, $year;
+}
+

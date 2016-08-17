@@ -1,0 +1,14 @@
+#!/usr/bin/perl -w
+
+print "\URozdział 3 ćwiczenie 3\E\n";
+
+chomp(@data = <STDIN>);
+
+@data = reverse sort @data;
+
+
+foreach (@data) {
+	print $_ . ", ";
+}
+
+print "\n";

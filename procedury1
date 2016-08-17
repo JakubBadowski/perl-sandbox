@@ -1,0 +1,38 @@
+#!/usr/bin/perl -w
+
+print "\UProcedury\E\n";
+
+# &dodawanie;
+
+@lista = (1,1,1,1,1, 5, 10);
+print &zwracanie( @lista );
+
+# print $wynik;
+
+
+print "\n";
+
+
+sub zwracanie {
+	my( $wynik );
+	# $wynik = 0;
+	foreach (@_) {
+		# print $_ . ""
+		$wynik += $_;
+	}
+	$wynik;
+	# $_[0] + $_[1];
+	# print "Koniec \n";
+}
+
+sub petla {
+	foreach (1..100) {
+		print $_ . ", ";
+	}
+}
+
+sub petla1 {
+	foreach (qw{ kuba ania ala dociek tociek śpociek }) {
+		print $_ . ", ";
+	}
+}

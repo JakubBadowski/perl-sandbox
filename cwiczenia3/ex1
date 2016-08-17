@@ -1,0 +1,8 @@
+#!/usr/bin/perl
+
+print "\Urozdział 3 ćwiczenie 1\E\n";
+
+print "Wprowadź dane z klawiatury \t (zakończ ctrl+D)\n";
+chomp(@data = <STDIN>);
+
+print @data;

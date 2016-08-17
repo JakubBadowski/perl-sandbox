@@ -1,0 +1,19 @@
+#!/usr/bin/perl
+
+print "Prezentacja operacji na stringach\n";
+
+print "\t1. Łączenie \n";
+
+print "pierwsza część " . "druga część" . "\n";
+
+print "\t2. Uppercase \n";
+
+print "\U to jest tekst przekształcony do wielkih liter \E\n"; 
+
+# Dźwięk dzwonka systemowego
+# print "\a";
+
+print "3. Operator zwielokrotnienia łańcucha\n";
+print "Nie będę więcej dokuczał Mamuni\n" x 10;
+
+print "\n"

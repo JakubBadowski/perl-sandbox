@@ -1,0 +1,4 @@
+#!/usr/bin/perl
+
+$_ = "badyl czoj\t";
+print;

@@ -1,0 +1,12 @@
+#!/usr/bin/perl
+
+print "\Urozdział 2 ćw 2\E\n";
+
+@lines = `perldoc -u -f atan2`;
+
+# print @lines;
+
+foreach (@lines) {
+	print $_ . "\t ---";
+	# print "\n ------ \n";
+}

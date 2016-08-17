@@ -1,0 +1,20 @@
+#!/use/bin/perl
+
+print "\U Zmienna undefined \E\n";
+
+# $nieMaTuNic = 1;
+
+# if (defined($nieMaTuNic)) {
+# 	print "W zmienej jest: " . $nieMaTuNic;
+# } else {
+# 	print "Nie ma takiej zmiennej";
+# }
+
+$i = 10;
+while ($i) {
+	# print "${i}line\n";
+	$text .= "${i}nowy\n";
+	$i -= 1;
+}
+
+print $text;

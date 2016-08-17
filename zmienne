@@ -1,0 +1,11 @@
+#!/usr/bin/perl
+
+print "\UZmienne\E\n";
+
+$zmienna = "pierwsza zmienna \n";
+$int = 1;
+
+print $zmienna;
+print $int;
+
+

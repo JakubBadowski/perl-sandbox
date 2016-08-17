@@ -1,0 +1,15 @@
+#!/usr/bin/perl
+
+print "\UWyrażenia regularne\E\n";
+
+$_ = "01";
+# $_ = "";
+
+
+
+if (/([1-9]+\d?)/) {
+	print "Wzorzec dopasowany\n";
+} else {
+	print "nic nie znalazłem\n";
+}
+
